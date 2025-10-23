@@ -8,7 +8,7 @@ document.querySelectorAll(".next-btn").forEach((btn, index) => {
     if (index + 1 < cards.length) {
       cards[index + 1].classList.add("active");
     } else {
-      alert("💖 Thank you, Didi! Love you always! 💖");
+      alert("Thank you, Didi" );
       location.reload(); // restart
     }
   });
@@ -19,4 +19,4 @@ const audio = document.getElementById("player");
 // Example:
 // audio.src = "https://example.com/your-song.mp3";
 
-console.log("Happy Bhai Dooj to Pankhuri Didi 💖 - From Anubhav 🎉");
+console.log("Happy Bhai Dooj to Choti didi - From Anubhav 🎉");
